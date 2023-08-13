@@ -80,7 +80,7 @@ public class ProductService {
 		String brokers = "glider.srvs.cloudkafka.com:9094";
 		String username = "eidflxfs";
 		String password = "PxIX3BTEcbFJbljRiixvpCVAuuB1DkIN";
-		KafkaExample c = new KafkaExample(brokers, username, password);
+		KafkaService c = new KafkaService(brokers, username, password);
         c.produce(product);
 	}
 	
